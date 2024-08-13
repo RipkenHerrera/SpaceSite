@@ -12,7 +12,7 @@ body {
 #bgimage {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   margin: 0 auto;
   background-size: cover;
   background-position: center;
@@ -36,11 +36,12 @@ body {
   border-bottom: 10px #FFFFFF solid;
   border-radius: 50px;
   z-index: 1;
+  opacity: .5;
 }
 
 #nav {
   position: relative;
-  left: 60vw;
+  left: 59.5vw;
   top: -30px;
   height: 50px;
 }
@@ -75,7 +76,7 @@ body {
   scale: 1.1;
   transition: 1s;
   cursor: pointer;
-  border-bottom: #FFFFFF solid 8px;
+  border-bottom: #FFFFFF solid 5px;
 }
 
 #nav a {
@@ -104,6 +105,16 @@ body {
   font-size: 85px;
   font-family: "Cormorant Garamond", serif;
   font-weight: normal;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff,0 0 20px #fff, 0 0 30px #8fc5ff,0 0 40px #8fc5ff,0 0 50px #8fc5ff,0 0 60px #8fc5ff,0 0 70px #8fc5ff;
+  }
+  to {
+    text-shadow: 0 0 20px #fff,0 0 30px #61adff, 0 0 40px #61adff,0 0 50px #61adff,0 0 60px #61adff,0 0 70px #61adff,0 0 80px #61adff;
+  }
 }
 
 #content h2 {
@@ -124,4 +135,33 @@ body {
   font-size: 16px;
   font-family: "Dosis", sans-serif;
   font-weight: normal;
+}
+
+#explore {
+  position: relative;
+  top: -285px;
+  left: 925px;
+  width: 250px;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255,255,255, .8);
+  border-radius: 150px;
+  transition: 1s;
+}
+
+#explore a {
+  position: absolute;
+  top: 38%;
+  left: 10%;
+  font-size: 45px;
+  font-family: "Cormorant Garamond", serif;
+  margin: auto;
+  text-decoration: none;
+  color: #2F4252;
+}
+
+#explore:hover {
+  scale: 1.1;
+  transition: 1s;
 }
