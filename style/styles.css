@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Kode+Mono");
 @import url("https://fonts.googleapis.com/css2?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond");
+@import url("https://fonts.googleapis.com/css2?family=Dosis");
 
 body {
   overflow: hidden;
@@ -38,7 +40,7 @@ body {
 
 #nav {
   position: relative;
-  left: 62vw;
+  left: 60vw;
   top: -30px;
   height: 50px;
 }
@@ -73,7 +75,7 @@ body {
   scale: 1.1;
   transition: 1s;
   cursor: pointer;
-  border-bottom: #FFFFFF solid 10px;
+  border-bottom: #FFFFFF solid 8px;
 }
 
 #nav a {
@@ -96,27 +98,30 @@ body {
 
 #content h1 {
   position: relative;
-  left: 50px;
-  top: -25px;
+  left: 135px;
+  top: 25px;
   color: #FFFFFF;
   font-size: 85px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: normal;
 }
 
 #content h2 {
   position: relative;
-  left: 58px;
-  top: 45px;
-  color: rgba(255,255,255, .8);
-  font-size: 18px;
+  left: 150px;
+  top: 75px;
+  color: rgba(255,255,255, .6);
+  font-size: 16px;
   font-family: "Roboto", sans-serif;
+  font-weight: normal;
 }
 
 #content h3 {
   position: relative;
-  left: 58px;
-  top: -90px;
-  color: rgba(255,255,255, .8);
+  left: 150px;
+  top: -20px;
+  color: rgba(255,255,255, .7);
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Dosis", sans-serif;
+  font-weight: normal;
 }
