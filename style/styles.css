@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono");
+
+body {
+  overflow: hidden;
+  margin: 0;
+  background-color: #2F4252;
+}
+
+#bgimage {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+#container {
+  margin: 0;
+  position: absolute;
+}
+
+#circleStar {
+  position: relative;
+  left: 30px;
+  top: 30px;
+  width: 50px;
+  height: 50px;
+  border-right: 5px #2F4252 solid;
+  border-left: 5px #2F4252 solid;
+  border-bottom: 10px #2F4252 solid;
+  border-radius: 50px;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+#nav {
+  position: relative;
+  left: 73.5vw;
+  top: -30px;
+  height: 50px;
+}
+
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: rgb(47, 66, 82, .5);
+}
+
+#nav li {
+  float: left;
+}
+
+#nav a {
+  display:inline-block;
+  font-family: "Kode Mono", monospace;
+  margin: auto;
+  color: rgba(255,255,255, .5);
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 2s;
+}
+
+#nav a:hover {
+  color: #FFFFFF;
+  background-color: rgba(103, 116, 128, 0.616);
+  fill-opacity: 0.5;
+  scale: 1.1;
+  transition: 1.5s;
+  cursor: pointer;
+}
+
+#content {
+  text-align: center;
+  margin: auto;
+}
+
+#content h1 {
+  color: rgba(255,255,255, .8);
+  font-family: "Kode Mono", monospace;
+}
