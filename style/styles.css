@@ -14,10 +14,10 @@
 
 @keyframes glowOneColor {
   from {
-    text-shadow: 0 0 5px #8fc5ff,0 0 10px #8fc5ff, 0 0 20px #61adff,0 0 30px #61adff,0 0 40px #8fc5ff,0 0 50px #61adff,0 0 60px #61adff;
+    text-shadow: 0 0 5px #8fc5ff,0 0 5px #8fc5ff, 0 0 10px #61adff,0 0 20px #61adff,0 0 30px #8fc5ff,0 0 40px #61adff,0 0 50px #61adff;
   }
   to {
-    text-shadow: 0 0 10px #8fc5ff,0 0 20px #61adff, 0 0 30px #61adff,0 0 40px #61adff,0 0 50px #61adff,0 0 60px #61adff,0 0 70px #61adff;
+    text-shadow: 0 0 10px #8fc5ff,0 0 10px #61adff, 0 0 20px #61adff,0 0 30px #61adff,0 0 40px #61adff,0 0 50px #61adff,0 0 60px #61adff;
   }
 }
 
